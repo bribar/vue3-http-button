@@ -1,0 +1,39 @@
+{
+  "name": "vue-http-button",
+  "description": "a customizable button that specifically handles http requests with loader and tooltip responses",
+  "version": "1.0.0",
+  "author": "Brian Barton <brianbarton80@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "button",
+    "http",
+    "vue"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@floating-ui/vue": "^1.0.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "rollup": "^2.79.1",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.77.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue": "^3.4.21",
+    "vue-tsc": "^2.0.6"
+  }
+}
